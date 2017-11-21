@@ -1,0 +1,23 @@
+{
+  "name": "iwantthatjob",
+  "version": "0.6.9",
+  "description": "I Want That Job",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imaginecargo/iWantThatJob.git"
+  },
+  "author": "Somebody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imaginecargo/iWantThatJob/issues"
+  },
+  "homepage": "https://github.com/imaginecargo/iWantThatJob#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
