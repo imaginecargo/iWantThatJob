@@ -10,4 +10,5 @@ env:
 rules:
   no-mixed-operators: 0 # incompatible with prettier
   no-confusing-arrow: 0 # incompatible with prettier
+  no-console: 0
   max-len: 0 # prefer prettier

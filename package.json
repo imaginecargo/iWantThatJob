@@ -18,7 +18,10 @@
     },
     "homepage": "https://github.com/imaginecargo/iWantThatJob#readme",
     "dependencies": {
+        "axios": "0.17.1",
         "colors": "1.1.2",
+        "ora": "1.3.0",
+        "prompt": "1.0.0"
     },
     "devDependencies": {
         "babel-eslint": "8.0.2",

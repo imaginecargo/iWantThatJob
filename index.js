@@ -1,3 +1,5 @@
-const colors = require('colors');
+import intro from './steps/intro';
 
-console.log(colors.rainbow('Whooop Whooop, you better give me that job because...'));
+Promise.resolve()
+    .then(intro)
+    .catch(error => console.error(error));
