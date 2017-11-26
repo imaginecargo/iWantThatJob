@@ -1,0 +1,132 @@
+$duration: 67s;
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d0e3f2;
+    height: 100vh;
+    overflow: hidden;
+}
+.center {
+    margin: 0 auto;
+}
+
+#background {
+    z-index: 100;
+    position: relative;
+    height: 100vh;
+    animation-name: bg;
+    animation-duration: $duration;
+    animation-fill-mode: forwards;
+
+    img {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@keyframes bg {
+    0% {
+        top: 100vh;
+    }
+    100% {
+        top: 0vh;
+    }
+}
+
+#whale {
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+
+    animation-name: whale;
+    animation-duration: $duration;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+    div {
+        width: 200px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes whale {
+    0% {
+        top: 0vh;
+    }
+    100% {
+        top: 100vh;
+    }
+}
+
+#pow {
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+
+    animation-name: pow;
+    animation-duration: 3s;
+    animation-delay: $duration;
+    animation-fill-mode: forwards;
+
+    div {
+        width: 100px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes pow {
+    0% {
+        bottom: -100px;
+        opacity: 1;
+    }
+    50% {
+        bottom: 0;
+        opacity: 1;
+    }
+    100% {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+#end {
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    bottom: -120px;
+
+    animation-name: end;
+    animation-duration: 3s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+
+    .right {
+        float: right;
+        margin: 0 30px 20px;
+    }
+
+    .button {
+        height: 50px;
+        font-size: 50px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+    }
+}
+
+@keyframes end {
+    0% {
+        bottom: -120px;
+    }
+    100% {
+        bottom: 0;
+    }
+}

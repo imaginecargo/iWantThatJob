@@ -1,3 +1,9 @@
-const colors = require('colors');
+import intro from './steps/intro';
+import server from './steps/server';
+import endcard from './steps/endcard';
 
-console.log(colors.rainbow('Whooop Whooop, you better give me that job because...'));
+Promise.resolve()
+    .then(intro)
+    .then(server)
+    .then(endcard)
+    .catch(error => console.error(error));
