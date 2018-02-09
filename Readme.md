@@ -5,7 +5,7 @@
 4. Have fun ;) 
 ## Requirements
 * NodeJS and NPM
-* Go:1.9.2 and I assume you 've set a GOBIN (```export GOBIN=$HOME/work/bin```)
+* Go:1.9.2 and I assume you 've set a global GOBIN environmental variable (```export GOBIN=$HOME/work/bin```)
 * Linux/Ubuntu (I've never tested but could work on Windows, too;) )
 * free ports at 8080 and 8081
 * sudo apt install libssl-dev (sometime node-git need that)
