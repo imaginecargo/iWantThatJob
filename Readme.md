@@ -8,4 +8,5 @@
 * Go:1.9.2
 * Linux/Ubuntu (I've never tested but could work on Windows, too;) )
 * free ports at 8080 and 8081
+* sudo apt install libssl-dev (sometime node-git need that)
 
