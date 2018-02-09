@@ -3,7 +3,7 @@
 2. After webpack has compiled, open localhost:8081 in your fav. browser (tested at chrome & firefox)
 3. In case you want start this again, go to ```/root/client/``` and type ```npm start```
 4. Have fun ;) 
-##Requirements
+## Requirements
 * NodeJS and NPM
 * Go:1.9.2
 * Linux/Ubuntu (I've never tested but could work on Windows, too;) )
