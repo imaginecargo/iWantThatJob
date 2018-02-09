@@ -19,7 +19,7 @@ if (!shell.which('git')) {
     shell.exit(1);
 }
 
-shell.exec("git clone git@bitbucket.org:onlyme12/client.git && cd client && npm install"); //works
-shell.exec("git clone git@bitbucket.org:onlyme12/backend.git");
+shell.exec("git clone https://bitbucket.org/onlyme12/client.git && cd client && npm install"); //works
+shell.exec("git clone https://bitbucket.org/onlyme12/backend");
 
 
