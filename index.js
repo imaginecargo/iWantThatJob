@@ -11,7 +11,7 @@ if(!shell.which("go")){
             shell.echo("this script works only outside of an IDE - please start it on a normal terminal")
         }
     }
-    shell.exec("printenv");
+    shell.exec("Something is wrong with your GoLang installation - Have you GoLang:1.9? Have you set and exported a GOBIN enivornment variable? - please look in the readme");
     shell.exit(1);
 }
 if (!shell.which('git')) {
